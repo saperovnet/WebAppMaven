@@ -8,7 +8,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <h1>Птн Мар 13 15:34:58 EET 2015</h1>
+        <h1>Птн Мар 13 15:46:45 EET 2015</h1>
+        <h1>Птн Мар 13 15:46:45 EET 2015</h1>
     </body>
 </html>
