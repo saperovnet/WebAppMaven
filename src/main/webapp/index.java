@@ -13,14 +13,14 @@ public class LoggerExample {
 		
 		//An array of size 3
 		int []a = {1,2,3};
-		int index = 4;
-		LOGGER.config("index is set to "+index);
-		
-		try{
-			System.out.println(a[index]);
-		}
-		catch(ArrayIndexOutOfBoundsException ex){
-			LOGGER.log(Level.SEVERE, "Exception occur", ex);
-		}
+		for (int i=0;  i <= 4; i++){
+			LOGGER.info("Index is set to "+i);
+			try{
+				System.out.println(a[i]);
+			}
+			catch(ArrayIndexOutOfBoundsException ex){
+				LOGGER.log(Level.SEVERE, "Exception occur", ex);
+			}
+		}	
 	}
 }
