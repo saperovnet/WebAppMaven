@@ -1,5 +1,3 @@
-package com.javacodegeeks.corejava.util.logging;
-
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,7 +18,8 @@ public class LoggerExample {
 		
 		try{
 			System.out.println(a[index]);
-		}catch(ArrayIndexOutOfBoundsException ex){
+		}
+		catch(ArrayIndexOutOfBoundsException ex){
 			LOGGER.log(Level.SEVERE, "Exception occur", ex);
 		}
 	}
